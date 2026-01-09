@@ -1,0 +1,49 @@
+/* src/index.css */
+@import "tailwindcss";
+
+@theme {
+  /* Aquí inyectamos tu paleta de Studio Herrero directamente */
+  --color-sh-offwhite: #F5F4F1;
+  --color-sh-stone: #D6D4CF;
+  --color-sh-gray-medium: #8E8C88;
+  --color-sh-black-soft: #1E1E1C;
+  --color-sh-sand: #CFC6B8;
+  --color-sh-taupe: #6F6A63;
+  --color-sh-accent: #7E857C;
+
+  /* Tipografías */
+  --font-display: "NT Valentino", serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Source Sans 3", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  /* Asegura que la barra de scroll sea siempre visible para evitar saltos de layout */
+  overflow-y: scroll; 
+}
+
+body {
+  background-color: #F5F4F1; /* Blanco Roto */
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Evita que el Navbar tape el título cuando el scroll llega al ID */
+#estudio, #servicios {
+  scroll-margin-top: 110px;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-sh-offwhite);
+    color: var(--color-sh-black-soft);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+        h1, h2, h3 {
+        @apply tracking-wide leading-[1.5];
+      }
+      p {
+        @apply leading-[1.8] tracking-normal;
+      }
+  }
+}
