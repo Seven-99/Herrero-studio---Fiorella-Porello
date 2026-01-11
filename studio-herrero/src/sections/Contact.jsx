@@ -33,7 +33,7 @@ export default function Contact() {
         </form>
 
         <div className="mt-24 pt-12 border-t border-sh-stone/30">
-          <p className="font-serif italic text-sh-taupe text-lg">hola@studioherrero.com</p>
+          <p className="font-serif italic text-sh-taupe text-lg">studioherrero.office@gmail.com</p>
           <p className="font-sans text-[10px] uppercase tracking-[0.2em] text-sh-gray-medium mt-2">Córdoba, Argentina</p>
         </div>
       </div>

@@ -20,7 +20,7 @@ export default function Footer() {
 
         <div className="flex gap-10 font-sans text-[11px] uppercase tracking-widest text-[#6F6A63]">
           <a href="#" className="hover:text-[#1E1E1C] transition-colors">Instagram</a>
-          <a href="mailto:hola@studioherrero.com" className="hover:text-[#1E1E1C] transition-colors italic font-serif lowercase tracking-normal text-base">hola@studioherrero.com</a>
+          <a href="mailto:studioherrero.office@gmail.com" className="hover:text-[#1E1E1C] transition-colors italic font-serif lowercase tracking-normal text-base">Email de contacto</a>
         </div>
       </div>
     </footer>

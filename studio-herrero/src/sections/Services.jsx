@@ -60,9 +60,9 @@ export default function Services() {
           {mainServices.map((s) => (
             <div key={s.id} id={s.anchor} className="group border-t border-[#D6D4CF] pt-10 flex flex-col justify-between scroll-mt-32">
               <div>
-                <span className="font-sans text-[10px] text-[#D6D4CF] block mb-8">{s.id}</span>
+                <span className="font-sans text-[10px] text-[#8E8C88] block mb-8">{s.id}</span>
                 <h3 className="font-serif text-2xl text-[#1E1E1C] mb-1">{s.title}</h3>
-                <p className="font-serif italic text-[#8E8C88] text-sm mb-6">{s.subtitle}</p>
+                <p className="font-serif italic text-[#6F6A63] text-sm mb-6">{s.subtitle}</p>
                 {s.description && <p className="font-sans text-[11px] text-[#6F6A63] uppercase tracking-wider leading-relaxed mb-6 italic">{s.description}</p>}
                 <ul className="space-y-3 mb-10">
                   {s.items.map((item, i) => (
